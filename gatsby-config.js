@@ -8,9 +8,10 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: 'GatsbyJS Tutorial',
+    author: 'Tariq Khan',
     siteUrl: 'http://127.0.0.1:8001',
     description: 'A Gatsby.js tutorial code along',
-    data: ['Array item #1', 'Array item #2', 'Array item #3'],
+    queryArray: ['GraphQL Page Query', 'GraphQL StaticQuery by importing the useStaticQuery hook', 'Only use Page Queries with in a Gatsby page, not a component'],
     person: {
       name: 'Tariq Khan',
       age: '56'

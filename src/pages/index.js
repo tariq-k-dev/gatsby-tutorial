@@ -4,6 +4,8 @@ import NoDroidsButton from '../components/button';
 import stormtrooper from '../../static/animated-stormtrooper-head.gif';
 import obiwan from '../../static/not-the-droids.png';
 
+import '../styles/index.scss';
+
 const TrooperImg = () => (
   <img style={{ marginTop: '2rem' }} src={stormtrooper} alt="Animated storm trooper head GIF" />
 );
@@ -15,7 +17,7 @@ const DisplayImage = () => {
 
   return (
     <>
-      <div style={{ height: '15.8rem' }}>
+      <div className="image">
         { showObiWan ? <ObiWanImg /> : <TrooperImg /> }
       </div>
       <NoDroidsButton onMouseUp={() => setShowObiWan(!showObiWan)}>{showObiWan ? 'Not the Droids!' : 'What Droids?'}</NoDroidsButton>

@@ -32,7 +32,7 @@ export default () => (
           <Link to="/services/" activeStyle={activeLink}>Services</Link>
         </li>
         <li>
-          <Link to="/404/" activeStyle={activeLink}>404</Link>
+          <Link to="/examples/" activeStyle={activeLink}>Examples</Link>
         </li>
       </ul>
     </nav>
